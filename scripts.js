@@ -79,7 +79,7 @@ function run() {
     requestAnimationFrame(run);
 }
 //function chim bay len khi nhan tab
-document.addEventListener("keydown", function() {
+document.addEventListener("click", function() {
     bird.y -= 60;
     fly.play();
 })
