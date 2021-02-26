@@ -67,6 +67,8 @@ function run() {
                 bird.y + birdimg.height >= ong[i].y + khoangcachvoiongduoi)
         ) {
             gameover.play();
+            alert("Game Over ! Ban choi ga vl =)) Choi lai xem nao =))");
+            location.reload();
             return 1;
         }
     }
